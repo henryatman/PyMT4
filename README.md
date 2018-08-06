@@ -1,4 +1,10 @@
-PyMT4 - Python bindings for the Metatrader 4 trading platform  ( rmawatson [ at ] hotmail. com )
+PyMT4 - Python bindings for the Metatrader 4 trading platform
+
+Project origin By rmawatson, he didn't want to be disturbed, 
+
+So don't to bother him, thanks 
+
+----
 
 Overview -
 
