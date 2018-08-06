@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros">
+    <BOOST_DIR>C:\sdk\boost_1_60_0</BOOST_DIR>
+    <BOOST_DIR_64>C:\sdk\boost_1_60_0</BOOST_DIR_64>
+    <BOOST_LIB>$(BOOST_DIR)\lib32-msvc-14.0\</BOOST_LIB>
+    <BOOST_LIB_64>$(BOOST_DIR)\lib64-msvc-14.0\</BOOST_LIB_64>
+    <BOOST_INCLUDE>$(BOOST_DIR)</BOOST_INCLUDE>
+    <PYTHON_DIR>C:\Python\Python27_32\</PYTHON_DIR>
+    <PYTHON_LIB>$(PYTHON_DIR)\libs</PYTHON_LIB>
+    <PYTHON_INCLUDE>$(PYTHON_DIR)\include</PYTHON_INCLUDE>
+    <SERVER_LIB_PATH>$(APPDATA)\MetaQuotes\Terminal\50CA3DFB510CC5A8F28B48D1BF2A5702\MQL4\Libraries</SERVER_LIB_PATH>
+    <CLIENT_LIB_PATH>$(SolutionDir)\Example</CLIENT_LIB_PATH>
+    <PYTHON_DIR_64>c:\python\python27\x64\</PYTHON_DIR_64>
+    <PYTHON_LIB_64>$(PYTHON_DIR_64)\libs</PYTHON_LIB_64>
+    <PYTHON_INCLUDE_64>$(PYTHON_DIR_64)\include</PYTHON_INCLUDE_64>
+  </PropertyGroup>
+  <PropertyGroup>
+    <IncludePath>$(BOOST_INCLUDE);$(IncludePath);</IncludePath>
+    <LibraryPath>$(SolutionDir)$(Platform)\$(Configuration);$(LibraryPath);$(SolutionDir)\build\$(Platform)\$(Configuration)\</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup />
+  <ItemGroup>
+    <BuildMacro Include="BOOST_DIR">
+      <Value>$(BOOST_DIR)</Value>
+      <EnvironmentVariable>true</EnvironmentVariable>
+    </BuildMacro>
+    <BuildMacro Include="BOOST_DIR_64">
+      <Value>$(BOOST_DIR_64)</Value>
+    </BuildMacro>
+    <BuildMacro Include="BOOST_LIB">
+      <Value>$(BOOST_LIB)</Value>
+      <EnvironmentVariable>true</EnvironmentVariable>
+    </BuildMacro>
+    <BuildMacro Include="BOOST_LIB_64">
+      <Value>$(BOOST_LIB_64)</Value>
+    </BuildMacro>
+    <BuildMacro Include="BOOST_INCLUDE">
+      <Value>$(BOOST_INCLUDE)</Value>
+      <EnvironmentVariable>true</EnvironmentVariable>
+    </BuildMacro>
+    <BuildMacro Include="PYTHON_DIR">
+      <Value>$(PYTHON_DIR)</Value>
+      <EnvironmentVariable>true</EnvironmentVariable>
+    </BuildMacro>
+    <BuildMacro Include="PYTHON_LIB">
+      <Value>$(PYTHON_LIB)</Value>
+      <EnvironmentVariable>true</EnvironmentVariable>
+    </BuildMacro>
+    <BuildMacro Include="PYTHON_INCLUDE">
+      <Value>$(PYTHON_INCLUDE)</Value>
+      <EnvironmentVariable>true</EnvironmentVariable>
+    </BuildMacro>
+    <BuildMacro Include="SERVER_LIB_PATH">
+      <Value>$(SERVER_LIB_PATH)</Value>
+    </BuildMacro>
+    <BuildMacro Include="CLIENT_LIB_PATH">
+      <Value>$(CLIENT_LIB_PATH)</Value>
+    </BuildMacro>
+    <BuildMacro Include="PYTHON_DIR_64">
+      <Value>$(PYTHON_DIR_64)</Value>
+    </BuildMacro>
+    <BuildMacro Include="PYTHON_LIB_64">
+      <Value>$(PYTHON_LIB_64)</Value>
+    </BuildMacro>
+    <BuildMacro Include="PYTHON_INCLUDE_64">
+      <Value>$(PYTHON_INCLUDE_64)</Value>
+    </BuildMacro>
+  </ItemGroup>
+</Project>

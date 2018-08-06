@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PyMT4_Server", "PyMT4\PyMT4_Server.vcxproj", "{54600396-25D0-4D78-8AB2-C2AD523AC60F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7BD211CF-2173-47D8-A105-49D41FC98531} = {7BD211CF-2173-47D8-A105-49D41FC98531}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PyMT4_Client", "PyMT4\PyMT4_Client.vcxproj", "{ADD0BC36-DCEB-46D4-A228-D70B9B8770C9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7BD211CF-2173-47D8-A105-49D41FC98531} = {7BD211CF-2173-47D8-A105-49D41FC98531}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PyMT4_Common", "PyMT4\PyMT4_Common.vcxproj", "{7BD211CF-2173-47D8-A105-49D41FC98531}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{54600396-25D0-4D78-8AB2-C2AD523AC60F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{54600396-25D0-4D78-8AB2-C2AD523AC60F}.Debug|Win32.Build.0 = Debug|Win32
+		{54600396-25D0-4D78-8AB2-C2AD523AC60F}.Debug|x64.ActiveCfg = Debug|Win32
+		{54600396-25D0-4D78-8AB2-C2AD523AC60F}.Release|Win32.ActiveCfg = Release|Win32
+		{54600396-25D0-4D78-8AB2-C2AD523AC60F}.Release|Win32.Build.0 = Release|Win32
+		{54600396-25D0-4D78-8AB2-C2AD523AC60F}.Release|x64.ActiveCfg = Release|Win32
+		{ADD0BC36-DCEB-46D4-A228-D70B9B8770C9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{ADD0BC36-DCEB-46D4-A228-D70B9B8770C9}.Debug|x64.ActiveCfg = Debug|x64
+		{ADD0BC36-DCEB-46D4-A228-D70B9B8770C9}.Debug|x64.Build.0 = Debug|x64
+		{ADD0BC36-DCEB-46D4-A228-D70B9B8770C9}.Release|Win32.ActiveCfg = Release|Win32
+		{ADD0BC36-DCEB-46D4-A228-D70B9B8770C9}.Release|Win32.Build.0 = Release|Win32
+		{ADD0BC36-DCEB-46D4-A228-D70B9B8770C9}.Release|x64.ActiveCfg = Release|x64
+		{ADD0BC36-DCEB-46D4-A228-D70B9B8770C9}.Release|x64.Build.0 = Release|x64
+		{7BD211CF-2173-47D8-A105-49D41FC98531}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7BD211CF-2173-47D8-A105-49D41FC98531}.Debug|Win32.Build.0 = Debug|Win32
+		{7BD211CF-2173-47D8-A105-49D41FC98531}.Debug|x64.ActiveCfg = Debug|x64
+		{7BD211CF-2173-47D8-A105-49D41FC98531}.Debug|x64.Build.0 = Debug|x64
+		{7BD211CF-2173-47D8-A105-49D41FC98531}.Release|Win32.ActiveCfg = Release|Win32
+		{7BD211CF-2173-47D8-A105-49D41FC98531}.Release|Win32.Build.0 = Release|Win32
+		{7BD211CF-2173-47D8-A105-49D41FC98531}.Release|x64.ActiveCfg = Release|x64
+		{7BD211CF-2173-47D8-A105-49D41FC98531}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

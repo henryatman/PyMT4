@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Server">
+      <UniqueIdentifier>{e6ea4042-0474-45c4-8e74-86c85a50baee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server\Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Server\Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="notes.txt" />
+    <None Include="pymt4_server.def">
+      <Filter>Server\Source Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pymt4_server_ioserver.h">
+      <Filter>Server\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pymt4_server_iosession.h">
+      <Filter>Server\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pymt4_server_plugin.h">
+      <Filter>Server\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pymt4_server_iosession.h">
+      <Filter>Server\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pymt4_server.h">
+      <Filter>Server\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pymt4_server_event_dispatcher.h">
+      <Filter>Server\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pymt4_server_ioserver.cpp">
+      <Filter>Server\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pymt4_server_iosession.cpp">
+      <Filter>Server\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pymt4_server_plugin.cpp">
+      <Filter>Server\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pymt4_server_test.cpp">
+      <Filter>Server\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

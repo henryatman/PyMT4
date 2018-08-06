@@ -1,0 +1,21 @@
+LIBRARY pymt4.dll
+EXPORTS
+
+pymt4_isdebug
+pymt4_initialize
+pymt4_uninitialize
+pymt4_isinitialized
+
+pymt4_notify
+pymt4_notifyOnTick
+pymt4_requestPendingCommand
+pymt4_setDoubleResult
+pymt4_setStringResult
+pymt4_setIntResult
+pymt4_setBoolResult
+
+pymt4_getIntArgument
+pymt4_getDoubleArgument
+pymt4_getBoolArgument
+pymt4_getStringArgument
+
