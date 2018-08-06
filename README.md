@@ -21,7 +21,10 @@ Most of these are not added yet. Custom Indicators are also not supported yet.
 
 Please see Examples folder for usage.
 
+----
 
+BTW:
 
+It's seem have some problem with iTime with python call, if someone could fix it, it would be great.
 
-
+Enjoy it
